@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101211">
+  <meta name="description" content="Portfólio de Felipe Santos, 0xReconDev. Cybersecurity, Web Pentesting, desenvolvimento Python e documentação de laboratórios de segurança.">
+  <title>Felipe Santos · 0xReconDev</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <script src="terminal.js" defer></script>
+</head>
+<body>
+  <canvas id="background-particles" aria-hidden="true"></canvas>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="0xReconDev — início"><span class="brand-symbol" aria-hidden="true">&gt;_</span> 0xReconDev<span class="brand-dot">.</span></a>
+      <button class="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false" hidden>Menu <span aria-hidden="true">☰</span></button>
+      <nav id="main-nav" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#skills">Skills</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#writeups">Write-ups</a>
+        <a href="#contato">Contato <span aria-hidden="true">↗</span></a>
+        <button class="terminal-trigger" type="button" data-open-terminal aria-haspopup="dialog" aria-controls="portfolio-terminal" hidden>&gt;_ Terminal</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo" tabindex="-1">
+    <section class="hero container" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> CYBERSECURITY / DESENVOLVIMENTO</p>
+        <h1 id="hero-title">Felipe<br>Santos<span class="accent">.</span></h1>
+        <p class="hero-handle"><span aria-hidden="true">@</span>0xReconDev</p>
+        <p class="hero-description">Explorando segurança.<br>Construindo conhecimento.</p>
+        <p class="hero-detail">Cybersecurity, Web Pentesting e Python.<br>Projetos próprios e aprendizado na prática.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projetos">Explorar projetos <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#contato">Vamos conversar <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+
+      <div class="profile-panel" aria-label="Resumo do perfil em formato de arquivo de configuração">
+        <div class="panel-top"><span><span class="file-icon" aria-hidden="true">≡</span> perfil.yml</span><span class="panel-label">PROFILE</span></div>
+        <div class="profile-code">
+          <p class="code-comment"># o conhecimento começa com curiosidade</p>
+          <dl>
+            <div><dt>nome:</dt><dd>"Felipe Santos"</dd></div>
+            <div><dt>alias:</dt><dd>"0xReconDev"</dd></div>
+            <div class="code-group"><dt>foco:</dt><dd><span>- Cybersecurity</span><span>- Web Pentesting</span><span>- Python</span></dd></div>
+            <div class="code-group"><dt>na_pratica:</dt><dd><span>- Projetos próprios</span><span>- CTFs e laboratórios</span><span>- Documentação técnica</span></dd></div>
+          </dl>
+        </div>
+        <div class="panel-bottom"><span><span class="small-dot" aria-hidden="true"></span> aprendizado contínuo</span><span aria-hidden="true">UTF-8</span></div>
+      </div>
+      <div class="hero-bottom"><span>SEGURANÇA SE CONSTRÓI COM PRÁTICA.</span><a href="#sobre">Conheça meu trabalho <span aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <section class="section container about" id="sobre" aria-labelledby="about-title">
+      <div class="section-heading"><p class="eyebrow"><span>01 /</span> SOBRE MIM</p><h2 id="about-title">Curiosidade como<br>ponto de partida.</h2></div>
+      <div class="about-content"><p class="lead">Sou Felipe Santos, também conhecido como <span class="accent">0xReconDev</span>. Meu foco está em cibersegurança, pentesting web e desenvolvimento com Python.</p><p>Este espaço reúne meus projetos próprios, estudos e documentação de laboratórios de segurança e CTFs. Uma forma de compartilhar o conhecimento construído na prática, com clareza e organização.</p><p>Entre ferramentas de rede, aplicações e write-ups, o objetivo é conectar desenvolvimento e segurança — e registrar o processo de aprendizado.</p><a class="text-link" href="https://github.com/0xReconDev" target="_blank" rel="noopener noreferrer">Conheça meu GitHub <span aria-hidden="true">↗</span><span class="sr-only"> (abre em nova aba)</span></a></div>
+    </section>
+
+    <section class="section section-tinted" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-heading heading-row"><div><p class="eyebrow"><span>02 /</span> SKILLS</p><h2 id="skills-title">Conhecimento em construção.</h2></div><p>Áreas de foco e tecnologias<br>presentes nos meus projetos.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card"><span class="card-symbol" aria-hidden="true">[ / ]</span><h3>Segurança</h3><p>Exploração e estudo de aplicações em ambientes de prática.</p><ul class="tags"><li>Nmap</li><li>Burp Suite</li><li>Cybersecurity</li><li>Web Pentesting</li><li>CTFs</li><li>Laboratórios</li></ul></article>
+          <article class="skill-card"><span class="card-symbol" aria-hidden="true">&lt; / &gt;</span><h3>Desenvolvimento</h3><p>Python e C aplicados a projetos educacionais de redes e segurança.</p><ul class="tags"><li>Python</li><li>C</li><li>Bash</li><li>Git</li><li>Sockets</li></ul></article>
+          <article class="skill-card"><span class="card-symbol" aria-hidden="true">{ : }</span><h3>Linux, redes & documentação</h3><p>Ambiente Linux, protocolos de rede e registro organizado do aprendizado.</p><ul class="tags"><li>Linux</li><li>SSH</li><li>SMB</li><li>TCP / UDP</li><li>Port scanning</li><li>Write-ups</li><li>Documentação técnica</li></ul></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projetos" aria-labelledby="projects-title">
+      <div class="section-heading heading-row"><div><p class="eyebrow"><span>03 /</span> PROJETOS</p><h2 id="projects-title">Da teoria para o código.</h2></div><a class="text-link" href="https://github.com/0xReconDev" target="_blank" rel="noopener noreferrer">Perfil no GitHub <span aria-hidden="true">↗</span><span class="sr-only"> (abre em nova aba)</span></a></div>
+      <p class="section-intro">Ferramentas e aplicações próprias com foco em redes, desenvolvimento e segurança.</p>
+      <div class="projects-grid">
+        <article class="project-card project-featured"><div class="project-top"><span class="project-category">REDES / DIAGNÓSTICO</span><span class="project-number" aria-hidden="true">01</span></div><h3>Network<br>Diagnostics Tool</h3><p>Script experimental em Python que verifica portas específicas de um host e envia requisições HTTP HEAD nas portas 80 e 443 para consultar o status da resposta.</p><div class="project-footer"><ul class="tags"><li>Python</li><li>TCP</li><li>HTTP / HTTPS</li></ul><a class="text-link" href="https://github.com/0xReconDev/network-diagnostics-tool" target="_blank" rel="noopener noreferrer" aria-label="Ver Network Diagnostics Tool no GitHub (abre em nova aba)">Ver no GitHub <span aria-hidden="true">↗</span></a></div></article>
+        <article class="project-card"><div class="project-top"><span class="project-category">REDES / COMUNICAÇÃO</span><span class="project-number" aria-hidden="true">02</span></div><h3>TCP/UDP<br>Server-Client</h3><p>Scripts Python para iniciar clientes e servidores TCP ou UDP por argumentos de linha de comando, com registro automático de conexões e sessões em arquivos de log.</p><div class="project-footer"><ul class="tags"><li>Python</li><li>TCP / UDP</li><li>Logs</li></ul><a class="text-link" href="https://github.com/0xReconDev/TCP-UDP-Server-Client" target="_blank" rel="noopener noreferrer" aria-label="Ver TCP/UDP Server-Client no GitHub (abre em nova aba)">Ver no GitHub <span aria-hidden="true">↗</span></a></div></article>
+        <article class="project-card"><div class="project-top"><span class="project-category">SEGURANÇA / REDES</span><span class="project-number" aria-hidden="true">03</span></div><h3>PortScan-C</h3><p>Scanner educacional em C que verifica se uma porta de um host está aberta ou fechada por meio de TCP connect, explorando programação de redes com sockets.</p><div class="project-footer"><ul class="tags"><li>C</li><li>Sockets</li><li>TCP connect</li></ul><a class="text-link" href="https://github.com/0xReconDev/PortScan-C" target="_blank" rel="noopener noreferrer" aria-label="Ver PortScan-C no GitHub (abre em nova aba)">Ver no GitHub <span aria-hidden="true">↗</span></a></div></article>
+        <article class="project-card"><div class="project-top"><span class="project-category">SEGURANÇA / PYTHON</span><span class="project-number" aria-hidden="true">04</span></div><h3>PortScan-Python</h3><p>Scanner educacional em Python que recebe IP e porta pela linha de comando e verifica a conexão TCP usando socket e sys, sem bibliotecas externas.</p><div class="project-footer"><ul class="tags"><li>Python</li><li>Sockets</li><li>TCP connect</li></ul><a class="text-link" href="https://github.com/0xReconDev/PortScan-Python" target="_blank" rel="noopener noreferrer" aria-label="Ver PortScan-Python no GitHub (abre em nova aba)">Ver no GitHub <span aria-hidden="true">↗</span></a></div></article>
+        <article class="project-card project-wide"><div class="project-top"><span class="project-category">WEB / ENUMERAÇÃO</span><span class="project-number" aria-hidden="true">05</span></div><h3>Directory Enumeration Tool</h3><p>Projeto voltado à enumeração de diretórios web. A descrição técnica detalhada está pendente de verificação no repositório.</p><div class="project-footer"><ul class="tags"><li>Web</li><li>Enumeração</li></ul><a class="text-link" href="https://github.com/0xReconDev/directory-enumeration-tool" target="_blank" rel="noopener noreferrer" aria-label="Ver Directory Enumeration Tool no GitHub (abre em nova aba)">Ver no GitHub <span aria-hidden="true">↗</span></a></div></article>
+      </div>
+    </section>
+
+    <section class="section section-tinted" id="writeups" aria-labelledby="writeups-title">
+      <div class="container writeups-layout"><div class="section-heading"><p class="eyebrow"><span>04 /</span> WRITE-UPS & LABS</p><h2 id="writeups-title">Aprender. Documentar. Compartilhar.</h2><p class="section-intro">Um espaço para registrar raciocínios, descobertas e aprendizados em ambientes de segurança.</p><a class="text-link" href="https://medium.com/@devandcyber" target="_blank" rel="noopener noreferrer">Perfil no Medium <span aria-hidden="true">↗</span><span class="sr-only"> (abre em nova aba)</span></a></div><div class="writeup-list">
+        <article class="writeup-item">
+          <div class="writeup-meta"><span>CTF / TRYHACKME</span><span aria-hidden="true">01</span></div>
+          <h3>Basic Pentesting — CTF TryHackMe</h3>
+          <p>Laboratório de pentesting com enumeração de serviços e diretórios web, ataques de força bruta e quebra de hashes. O desafio conecta a descoberta de credenciais à enumeração Linux e à busca por caminhos de elevação de privilégios.</p>
+          <a class="text-link" href="https://medium.com/@devandcyber/basic-pentesting-ctf-tryhackme-944fa40a11cd?sharedUserId=devandcyber" target="_blank" rel="noopener noreferrer" aria-label="Ler Basic Pentesting — CTF TryHackMe no Medium (abre em nova aba)">Ler no Medium <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="writeup-item">
+          <div class="writeup-meta"><span>CTF / WRITE-UP</span><span aria-hidden="true">02</span></div>
+          <h3>CTF Cyborg</h3>
+          <p>Desafio que combina enumeração de serviços, investigação de arquivos criptografados e análise de código-fonte. O objetivo é comprometer a máquina e obter as flags de usuário e root, relacionando as pistas encontradas ao longo da exploração.</p>
+          <a class="text-link" href="https://medium.com/@devandcyber/ctf-cyborg-342f30126aca?sharedUserId=devandcyber" target="_blank" rel="noopener noreferrer" aria-label="Ler CTF Cyborg no Medium (abre em nova aba)">Ler no Medium <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="writeup-item">
+          <div class="writeup-meta"><span>CTF / WRITE-UP</span><span aria-hidden="true">03</span></div>
+          <h3>CTF Tomghost</h3>
+          <p>Desafio focado na identificação de vulnerabilidades que permitem comprometer o sistema ou ler arquivos restritos. O percurso exige obter acesso à máquina, localizar a flag de usuário e elevar privilégios para alcançar a flag de root.</p>
+          <a class="text-link" href="https://medium.com/@devandcyber/ctf-tomghost-a2d99afbb0de?sharedUserId=devandcyber" target="_blank" rel="noopener noreferrer" aria-label="Ler CTF Tomghost no Medium (abre em nova aba)">Ler no Medium <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="writeup-item">
+          <div class="writeup-meta"><span>CTF / TRYHACKME</span><span aria-hidden="true">04</span></div>
+          <h3>Pickle Rick — CTF TryHackMe</h3>
+          <p>CTF de exploração web inspirado em Rick and Morty. A missão é investigar a aplicação e explorar o servidor para encontrar os três ingredientes da poção que transforma Rick de volta em humano.</p>
+          <a class="text-link" href="https://medium.com/@devandcyber/pickle-rick-ctf-tryhackme-37080c2fcd1d?sharedUserId=devandcyber" target="_blank" rel="noopener noreferrer" aria-label="Ler Pickle Rick — CTF TryHackMe no Medium (abre em nova aba)">Ler no Medium <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="writeup-item">
+          <div class="writeup-meta"><span>LABORATÓRIO / TRYHACKME</span><span aria-hidden="true">05</span></div>
+          <h3>GamingServer — TryHackMe</h3>
+          <p>Da enumeração com Nmap ao acesso SSH com uma chave exposta: análise da senha da chave com John the Ripper e elevação de privilégios por meio do grupo LXD e de um container privilegiado.</p>
+          <a class="text-link" href="https://medium.com/@devandcyber/gamingserver-tryhackme-637b028103b2?sharedUserId=devandcyber" target="_blank" rel="noopener noreferrer" aria-label="Ler GamingServer — TryHackMe no Medium (abre em nova aba)">Ler no Medium <span aria-hidden="true">↗</span></a>
+        </article>
+      </div></div>
+    </section>
+
+    <section class="section container contact" id="contato" aria-labelledby="contact-title"><div><p class="eyebrow"><span>05 /</span> CONTATO</p><h2 id="contact-title">Boas conexões.<br>Novas possibilidades<span class="accent">.</span></h2><p>Para conversar sobre segurança, desenvolvimento<br>ou oportunidades, encontre-me por aqui.</p></div><div class="contact-links"><a href="https://www.linkedin.com/in/0xrecondev/" target="_blank" rel="noopener noreferrer"><span><small>01 / PROFISSIONAL</small>LinkedIn</span><span aria-hidden="true">↗</span><span class="sr-only"> (abre em nova aba)</span></a><a href="https://github.com/0xReconDev" target="_blank" rel="noopener noreferrer"><span><small>02 / CÓDIGO</small>GitHub</span><span aria-hidden="true">↗</span><span class="sr-only"> (abre em nova aba)</span></a><a href="https://medium.com/@devandcyber" target="_blank" rel="noopener noreferrer"><span><small>03 / ESCRITA</small>Medium</span><span aria-hidden="true">↗</span><span class="sr-only"> (abre em nova aba)</span></a><a href="https://tryhackme.com/p/0xReconDev" target="_blank" rel="noopener noreferrer"><span><small>04 / PRÁTICA</small>TryHackMe</span><span aria-hidden="true">↗</span><span class="sr-only"> (abre em nova aba)</span></a></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><div><a class="brand" href="#home">0xReconDev<span class="brand-dot">.</span></a><p>Felipe Santos · Cybersecurity & desenvolvimento</p></div><div class="terminal-reserved"><button type="button" data-open-terminal aria-haspopup="dialog" aria-controls="portfolio-terminal" disabled><span aria-hidden="true">&gt;_</span> Terminal</button><small>Explore o portfólio por comandos.</small></div><a class="back-top" href="#home">Voltar ao início <span aria-hidden="true">↑</span></a></div></footer>
+
+  <dialog id="portfolio-terminal" class="terminal-dialog" aria-labelledby="terminal-title" aria-describedby="terminal-description">
+    <div class="terminal-titlebar">
+      <h2 id="terminal-title">0xReconDev@portfolio:~</h2>
+      <button id="terminal-close" type="button" aria-label="Fechar terminal">×</button>
+    </div>
+    <p id="terminal-description" class="terminal-description">Explore com help. Use ↑ e ↓ para o histórico, Tab para completar comandos e Escape para fechar. Arquivos virtuais, somente leitura.</p>
+    <div id="terminal-output" class="terminal-output" role="log" aria-label="Histórico do terminal" aria-live="polite" aria-relevant="additions" tabindex="0"></div>
+    <div class="terminal-suggestions" role="group" aria-label="Sugestões de comandos">
+      <button type="button" data-terminal-command="help">help</button>
+      <button type="button" data-terminal-command="whoami">whoami</button>
+      <button type="button" data-terminal-command="projects">projects</button>
+      <button type="button" data-terminal-command="writeups">writeups</button>
+      <button type="button" data-terminal-command="contact">contact</button>
+    </div>
+    <form id="terminal-form" class="terminal-form" autocomplete="off">
+      <span id="terminal-prompt" aria-hidden="true">0xReconDev@portfolio:~ $</span>
+      <label class="sr-only" for="terminal-input">Comando do terminal virtual</label>
+      <div class="terminal-entry">
+        <input id="terminal-input" name="command" type="text" maxlength="240" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="send" aria-describedby="terminal-description" autofocus>
+        <span id="terminal-cursor" class="terminal-cursor" aria-hidden="true"></span>
+      </div>
+    </form>
+    <p id="terminal-status" class="sr-only" role="status"></p>
+  </dialog>
+</body>
+</html>
